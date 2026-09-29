@@ -1,0 +1,52 @@
+wayground-cheats/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+├── requirements.txt
+│
+├── main.py
+│
+├── config/
+│   └── settings.py
+│
+├── src/
+│   ├── __init__.py
+│   │
+│   ├── browser/
+│   │   ├── __init__.py
+│   │   ├── base.py
+│   │   ├── factory.py
+│   │   ├── chromium.py
+│   │   ├── firefox.py
+│   │   └── safari.py
+│   │
+│   ├── quiz/
+│   │   ├── __init__.py
+│   │   ├── models.py
+│   │   ├── detector.py
+│   │   ├── parser.py
+│   │   └── normalizer.py
+│   │
+│   ├── ai/
+│   │   ├── __init__.py
+│   │   ├── ollama.py
+│   │   └── prompts.py
+│   │
+│   ├── cli/
+│   │   ├── __init__.py
+│   │   └── arguments.py
+│   │
+│   └── utils/
+│       ├── __init__.py
+│       └── logging.py
+│
+├── tests/
+│   ├── test_quiz_parser.py
+│   ├── test_normalizer.py
+│   └── test_ollama.py
+│
+└── mock_quiz/
+    ├── index.html
+    ├── style.css
+    └── script.js

@@ -41,12 +41,7 @@ wayground-cheats/
 │       ├── __init__.py
 │       └── logging.py
 │
-├── tests/
-│   ├── test_quiz_parser.py
-│   ├── test_normalizer.py
-│   └── test_ollama.py
-│
-└── mock_quiz/
-    ├── index.html
-    ├── style.css
-    └── script.js
+└── tests/
+    ├── test_quiz_parser.py
+    ├── test_normalizer.py
+    └── test_ollama.py

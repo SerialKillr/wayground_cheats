@@ -70,7 +70,7 @@ wayground-cheats/
 
 ### 1. Clone the repository
 ```powershell
-git clone https://github.com/your-username/wayground-cheats.git
+git clone https://github.com/SerialKillr/wayground_cheats.git
 cd wayground-cheats
 ```
 
@@ -101,22 +101,22 @@ Launch the tool by providing session details via command-line arguments.
 
 ### Default (Google Chrome)
 ```powershell
-python main.py --code 123456 --username Sriram
+python main.py --code 123456 --username XYZ
 ```
 
 ### Microsoft Edge
 ```powershell
-python main.py --browser edge --code 123456 --username Sriram
+python main.py --browser edge --code 123456 --username XYZ
 ```
 
 ### Brave Browser
 ```powershell
-python main.py --browser brave --code 123456 --username Sriram
+python main.py --browser brave --code 123456 --username XYZ
 ```
 
 ### Mozilla Firefox
 ```powershell
-python main.py --browser firefox --code 123456 --username Sriram
+python main.py --browser firefox --code 123456 --username XYZ
 ```
 
 ### Command-Line Arguments
